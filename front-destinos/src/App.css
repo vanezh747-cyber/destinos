@@ -1,0 +1,73 @@
+*
+{box-sizing: border-box;
+}
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f2f5f3;
+color: #26352d;
+}
+.contenedor {
+max-width: 850px;
+margin: 40px auto;
+padding: 20px;
+}
+header {
+text-align: center;
+background: #176b45;
+color: white;
+padding: 35px 20px;
+border-radius: 12px;
+}
+header h1 {
+margin: 0;
+font-size: 32px;
+}
+.formulario,
+.lista {
+background: white;
+padding: 25px;
+margin-top: 25px;
+border-radius: 12px;
+}
+form {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+input {
+padding: 13px;
+border: 1px solid #ccc;
+border-radius: 7px;
+font-size: 15px;
+}
+button {
+padding: 13px;
+background: #176b45;
+color: white;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+font-size: 15px;
+}
+button:hover {
+opacity: 0.85;
+}
+.destino {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px;
+border-bottom: 1px solid #eee;
+}
+.destino h3 {
+margin-bottom: 5px;
+}
+.destino p {
+margin-top: 0;
+color: #777;
+}
+.eliminar {
+background: #c0392b;
+width: auto;
+}
